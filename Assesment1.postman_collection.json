@@ -1,0 +1,404 @@
+{
+	"info": {
+		"_postman_id": "cb649985-19a6-4db7-a1a5-6fd35a83b049",
+		"name": "Assesment1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "assessment2",
+			"item": [
+				{
+					"name": "http://localhost:8080/api/users/auth/jon2346",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"password\": \"password13\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/users/auth/jon2346",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"auth",
+								"jon2346"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/users/deposit/604b77ffdeb5ed2f13392e9b",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvbjIzNDYiLCJpYXQiOjE2MTU1NTg3MTgsImV4cCI6MTYxNTYwMTkxOH0.Ee_2mjtMVFG4GsA4X3TZI07D_Q4WH8jfentLH3n6ldY\",\n    \"amount\": 26000\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/users/deposit/604b77ffdeb5ed2f13392e9b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"deposit",
+								"604b77ffdeb5ed2f13392e9b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/stocks/buy/604b77ffdeb5ed2f13392e9b",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvbjIzNDYiLCJpYXQiOjE2MTU1NjI2MDgsImV4cCI6MTYxNTYwNTgwOH0.M0bBxoHbCSjcSSXvLKv8ocYB2q-zuh369DY3adE8yOk\",\n    \"stock\": {\n        \"symbol\": \"TSLA\",\n            \"price\": 100.65,\n            \"exchange\": \"Nasdaq\",\n            \"sector\": \"Technology\",\n            \"shares\": 75,\n            \"value\": 7548.75\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/stocks/buy/604b77ffdeb5ed2f13392e9b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"stocks",
+								"buy",
+								"604b77ffdeb5ed2f13392e9b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/stocks/sell/604b77ffdeb5ed2f13392e9b",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvbjIzNDYiLCJpYXQiOjE2MTU1NjI2MDgsImV4cCI6MTYxNTYwNTgwOH0.M0bBxoHbCSjcSSXvLKv8ocYB2q-zuh369DY3adE8yOk\",\n    \"index\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/stocks/sell/604b77ffdeb5ed2f13392e9b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"stocks",
+								"sell",
+								"604b77ffdeb5ed2f13392e9b"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/api/users/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"PhilD345\",\n    \"password\":\"password897\",\n    \"email\":\"pDee@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/users/auth/larryz23",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \n    \"password\":\"password897\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/auth/philD",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"auth",
+						"philD"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/tweets/send/larryz23",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxhcnJ5ejIzIiwiaWF0IjoxNjE1NTMwMDEwLCJleHAiOjE2MTU1NzMyMTB9.5YeDQcvtEB7JbAm6SrQDMukKr_blrAx-D1_fqmZjEyQ\",\n    \"tweet\":{\"username\":\"larryz123\",\"date\":\"03/12/2021\",\"message\":\"I love this app so much...it works so well\", \"likes\":0, \"retweets\":0, \"linkedTo\": null}\n    \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/tweets/send/larryz23",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tweets",
+						"send",
+						"larryz23"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/tweets/update/604b1b786ff5e817c8dd468f",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxhcnJ5ejIzIiwiaWF0IjoxNjE1NTMwMDEwLCJleHAiOjE2MTU1NzMyMTB9.5YeDQcvtEB7JbAm6SrQDMukKr_blrAx-D1_fqmZjEyQ\",\n    \"tweet\":{\"username\":\"larryz123\",\"date\":\"03/12/2021\",\"message\":\"scratch that...this app works perfectly\", \"likes\":0, \"retweets\":0, \"linkedTo\": null}\n    \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/tweets/update/604b1b786ff5e817c8dd468f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tweets",
+						"update",
+						"604b1b786ff5e817c8dd468f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/tweets/delete/604b1b786ff5e817c8dd468f",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxhcnJ5ejIzIiwiaWF0IjoxNjE1NTMwMDEwLCJleHAiOjE2MTU1NzMyMTB9.5YeDQcvtEB7JbAm6SrQDMukKr_blrAx-D1_fqmZjEyQ\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/tweets/delete/604b1b786ff5e817c8dd468f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tweets",
+						"delete",
+						"604b1b786ff5e817c8dd468f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/tweets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/tweets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tweets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/tweets/retweet/604b236ebc7bea1aa63f21f4",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"larryz23\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBoaWxEIiwiaWF0IjoxNjE1NTQzNjQ2LCJleHAiOjE2MTU1ODY4NDZ9.RtKt_6F7H5GRvGIWDSPQ-ABg_Z2P8airlkatJSRkScQ\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/tweets/retweet/604b236ebc7bea1aa63f21f4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tweets",
+						"retweet",
+						"604b236ebc7bea1aa63f21f4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/tweets/like/604b236ebc7bea1aa63f21f4",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxhcnJ5ejIzIiwiaWF0IjoxNjE1NTMwMDEwLCJleHAiOjE2MTU1NzMyMTB9.5YeDQcvtEB7JbAm6SrQDMukKr_blrAx-D1_fqmZjEyQ\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/tweets/like/604b236ebc7bea1aa63f21f4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tweets",
+						"like",
+						"604b236ebc7bea1aa63f21f4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/users/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"jon2346\",\n    \"password\":\"password13\",\n    \"email\":\"==jon123@gmail.com\",\n    \"outflows\": 0,\n    \"balance\": 0,\n    \"holdings\": [\n        {\n        \"symbol\": \"APPL\",\n        \"price\": 127.67,\n        \"exchange\": \"Nasdaq\",\n        \"sector\": \"Technology\",\n        \"shares\": 150,\n        \"value\": 19150.5\n        },\n        {\n        \"symbol\": \"LUV\",\n        \"price\": 17.67,\n        \"exchange\": \"NYSE\",\n        \"sector\": \"Airlines/Travel\",\n        \"shares\": 2000,\n        \"value\": 35340\n        },\n        {\n        \"symbol\": \"AEO\",\n        \"price\": 29.41,\n        \"exchange\": \"NYSE\",\n        \"sector\": \"Consumer Descretionary\",\n        \"shares\": 1000,\n        \"value\": 29410.00\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

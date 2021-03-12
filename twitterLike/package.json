@@ -1,0 +1,24 @@
+{
+  "name": "twitterlike",
+  "version": "1.0.0",
+  "description": "An Api like twitter but not twitter so twitterlike",
+  "main": "node.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jonathan Brown",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.3.1",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.15",
+    "p": "^0.2.0",
+    "socket.io": "^4.0.0"
+  }
+}
